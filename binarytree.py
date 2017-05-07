@@ -48,16 +48,22 @@ class createlist:
          self.parent.right=self.Rightchild
 
     def inordertraversse(self,top):
-        if(top):
+           if(top):
             self.inordertraversse(top.left)
             print(top.root)
             self.inordertraversse(top.right)
             
-          
-    def test(self):
-      print(self.top.root)          
-      print(self.top.left)          
-      print(self.top.right)          
+    def preordertraversse(self,top):
+           if(top):
+            print(top.root)       
+            self.preordertraversse(top.left)
+            self.preordertraversse(top.right)
+    def postordertraversse(self,top):
+           if(top):
+            self.postordertraversse(top.left)
+            self.postordertraversse(top.right)            
+            print(top.root)
+     
     def printlist(self):
         temp=self.head
         while(temp):
@@ -68,9 +74,13 @@ conv=createlist();
 conv.push(10)
 conv.push(20)
 conv.push(30)
+conv.push(40)
+conv.push(50)
 conv.printlist()
 conv.convertedtree()
-#conv.printlist()
-print("the test starts from her")
-#conv.test()
+print("the inorder traversal ")
 conv.inordertraversse(conv.top)
+print("the  preorder traversal")
+conv.preordertraversse(conv.top)
+print("the postorder traversal is ")
+conv.postordertraversse(conv.top)
