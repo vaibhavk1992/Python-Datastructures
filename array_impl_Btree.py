@@ -32,21 +32,23 @@ class createbinarytree:
         
            parent=z.pop(0)
            x=2*k+1
-           if(x>=arr_len):
-             break;  
-           left_data=self.q[x]
-           self.left_child=createnode(left_data)
-           z.append(self.left_child)
+           
+           if(x<arr_len):  
+            
+            left_data=self.q[x]
+            self.left_child=createnode(left_data)
+            z.append(self.left_child)
+            parent.left=self.left_child
            y=2*k+2
-           if(y>=arr_len):
-             break;  
-           right_data=self.q[y]
-           self.right_child=createnode(right_data)
-           z.append(self.right_child)
-           parent.left=self.left_child
-           parent.right=self.right_child         
+           if(y<arr_len):
+            right_data=self.q[y]
+            self.right_child=createnode(right_data)
+            z.append(self.right_child)
+            parent.right=self.right_child         
            
            k=k+1
+           
+           
     def inordertraversse(self,top):
            if(top):
             self.inordertraversse(top.left)
