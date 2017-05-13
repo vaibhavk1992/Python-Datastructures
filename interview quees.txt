@@ -1,0 +1,109 @@
+direc file and indirect file load
+how to lod file from a database to different table
+router in infa
+cut ,cat i unix
+index ,pk,fk
+column level databases rdbms
+Q->tuing in databases
+
+Q->emp
+id name loc
+1 kartika chennai,nbang,punae
+how too arrange it normmaly like
+1 kartika chennai
+1 kartika bang
+1 kartika punae
+Q->What are the chanllenges in ETL i faced?
+
+how to run the shelltto run the file
+Q ->how ot load the files into table from the shell script
+QUes-> check  whther the file is correct or not when we get it from our client
+Ans- We can have it two ways 
+1.By checking the trailer records in it 
+2.By pinging the server
+3.Count of the file which we use to get daily
+
+
+
+different types of tables in hive
+orc
+serde
+decimal datatype in hive
+factless in dw
+hive-site.xml
+yarn architecture
+active and passive namenode
+parameter in infa
+
+Need to read
+map reduce flow
+datawarehouse concepts
+Hadoop f conf iles
+performance tuning
+hive json handing
+pig json handling
+sql server (indexing,triggers,procesdures,performance tuning)
+edi doc
+compression tech,
+file formats in hive
+hadoop arch,yarn,hdfs
+namenode,jt,nn,jt,tt
+active passive namenode
+
+MCKINSEY
+
+Object Inspec in hive
+fetch objects in hive
+cursors in sql,
+llap in hive
+puzzles
+vaiables i hive
+orc
+sede
+file formats
+latest hive verson in clourdera,hortonworks
+how select *  works
+what are the select statments that doesn run map reduce
+does map reduce works in insrtion of updation of data in hdfs
+updation in hive
+how to see data in hdfs
+how can yu explain an etl process with anormal example
+pig group by with max or second highest salary
+
+MCKINSEY
+
+Object Inspec in hive
+fetch objects in hive
+cursors in sql,
+llap in hive
+puzzles
+vaiables i hive
+orc
+sede
+file formats
+latest hive verson in clourdera,hortonworks
+how select *  works
+
+Optimisations in hive
+Map reduce archi
+auto map join systax except handling it at session level
+buckettting
+skew table
+skew data
+partitioning
+pivoting
+how data is strored in hdfs
+why we go for cloud based servces
+
+
+Vaibhavk1992
+
+OcTRO
+BINARY PROGRAM HANDILING IN C,C++
+INHERITICANCE
+PLOYMORPHISM
+FASTPOINTER
+SLOWPOINTER
+HOW TO FIND MID OR 1/3 OF LIST USING FAST OR SLOW POINTER
+HOW  DOES PRINTF WORKS
+

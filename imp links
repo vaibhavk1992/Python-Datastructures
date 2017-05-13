@@ -1,0 +1,66 @@
+Hive Hadoop Imp links
+Hadoop file storage  technique
+http://inquidia.com/news-and-info/hadoop-file-formats-its-not-just-csv-anymore
+
+http://blog.matthewrathbone.com/2016/09/01/a-beginners-guide-to-hadoop-storage-formats.html
+
+http://comphadoop.weebly.com/
+
+http://www.wmanalytics.io/blog/compression-hive
+
+http://hadooptutorial.info/enable-compression-in-hive
+
+http://hadooptutorial.info/hive-performance-tuning/
+
+HIveserver2
+http://blog.cloudera.com/blog/2013/07/how-hiveserver2-brings-security-and-concurrency-to-apache-hive/
+
+
+http://www.michael-noll.com/tutorials/running-hadoop-on-ubuntu-linux-multi-node-cluster/
+
+http://www.semantikoz.com/blog/orc-intelligent-big-data-file-format-hadoop-hive/
+
+https://www.codementor.io/sheena/extending-hadoop-apache-pig-with-python-udfs-du107mj6t
+
+
+http://blog.cloudera.com/blog/2012/10/mr2-and-yarn-briefly-explained/
+
+http://saphanatutorial.com/how-yarn-overcomes-mapreduce-limitations-in-hadoop-2-0/
+
+Add jar  /usr/local/Hive-JSON-Serde/json-serde/target/json-serde-1.3.8-SNAPSHOT-jar-with-dependencies.jar
+
+http://blog.cloudera.com/blog/2012/08/process-a-million-songs-with-apache-pig/
+
+
+Hive LInks
+https://kannandreams.wordpress.com/2013/12/12/hive-command-line-interface/
+
+hive interview questions and answers for experienced
+
+
+19580904
+AGZPui*9
+Vaibhav@123
+
+Things To do in shell Script
+Append the columns timestamp filecount to each  row
+trigger  a mail that data  got loaded
+play with awk,sed,grep,head,tail in the possible ways
+Odd Even month concept
+functions 
+
+awk
+http://www.theunixschool.com/2012/06/awk-10-examples-to-split-file-into.html
+
+https://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/learning-path-r-data-science/
++++++++++++++++++++++DATA STRUCTURES+++++++++++++++++++++++++++
+http://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
+++++++++++++++++#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$++++++++++++
+Data Science Sites
+Kagle
+BigDataTales
+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+. Keep an eye on the industry trend. Best way to do that is brows the jobsites and Linkedin job ads. Many youngsters are active on FB, no problem with that but some of them don't realize the importance / value of being on a professional site like LI. 2. Point 1 should help you identify the tools and technologies in vogue. For e.g. the current demand for technologies such as Hadoop stack, data science, IOT related etc. Given your current technology expertise/ role and qualifications, identify technologies which will be a natural or logical extension of your skills. For e.g. if you are a java developer, hadoop developer would be (lowest hanging fruit) not a datascientist. 3. If you are a self learner (this is very important to be able to adapt to changes), go and explore the coursera.org , edx.org , Udacity.org, Khan Academy, Datacamp, MapR etc... there is no shortage of online sources of learning and that too at nominal cost (if you go for certifications in Coursera or Edx) or completly free! You don't have the hardware? No problem, create a free account on Amazon Web Services popularly known as (AWS) and create free clusters ( within their precribed limits) for one year. Practice the new technologies on the clusters. Sometimes, you may cross the limits of usage, it will cost you a very minimal amount that probably you spend on liesure activities such as coffee 4. Execute near-real projects based on real data using the new and old skills. Check out the UCLI (University of California Irvene) on google for datasets. Check Kaggle.com and others for data and projects. This will give you a near real life experience. 5. Create an account on LI and create your profile and list your achievements and certifications (if any). Share details about your projects both the ones done in current org and the ones in point 4 6. Save save save.... save every ruppee you can. Unless you come from a rich background with strong support from parents or others, I advice savings as much as possible. Cut down on your extravanza. This is a very practical advice. Instead of coffee at a westernized coffee joint, take tea from local (if your desire to have one cannot be controlled). 7. Continuously upgrade and update yourself. Plenty of opportunities to do so exist. Explore and challenge yourself. It is a continuous journey. 8. Whatever have shared here is from my personal experience and I did all this when I stepped out of my last job. It took me 6 months of time and effort to get into what I like to do. 
