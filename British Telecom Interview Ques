@@ -1,0 +1,15 @@
+Q1.case when null is null
+Ans False. Because null can never be equal to null.
+https://stackoverflow.com/questions/1843451/why-does-null-null-evaluate-to-false-in-sql-server
+
+Q2. Diff betwen count(*) and count(1) 
+Ans NO difference both will give the total number of rows.
+
+Q3. How to find the total number of working days between two dates.
+Ans- Better go for a dimension that has all such attributes like days,weeks,months,NUMBER OF WORKING DAY,from there we can directly use th thing.
+How to make that dimension?
+Teradata suggest there is a concept of calender table from thhere we can directly fetch the range of dates between two dates and then withing the extracted dates put a where condition like where extracted dates in (Working days)
+
+select count(*) from 
+(select extracted_datees from calender_table where dates in between date 1 and date2)inr
+where inr.extracted_dates in(Working_days)
