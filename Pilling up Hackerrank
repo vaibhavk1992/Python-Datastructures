@@ -1,0 +1,23 @@
+test_cases=raw_input()
+
+lst=[]
+lst1=[]
+for k in range(int(test_cases)):
+    num_of_elements=raw_input()
+    lst.append(map(int,raw_input().strip().split(' ')))
+for j in xrange(len(lst)):
+    list_len=len(lst[j])-1
+    print("the len",list_len)
+    for i in xrange(len(lst[j])):
+      
+      if lst[j][i]>=lst[j][list_len]:
+          lst1.append(lst[j][i])    
+          lst1.append(lst[j][list_len])
+          list_len=list_len-1
+          print(lst1)
+      else:
+          lst1.append(lst[j][list_len])
+          lst1.append(lst[j][i])    
+          list_len=list_len-1
+          print(lst1)
+           
