@@ -31,13 +31,13 @@ for j in xrange(len(lst)):
     len_of_lst1=len(lst1)-1
     for l in lst1:
         print(lst1[l])
-        if lst1[l]<lst1[l+1] and l <len_of_lst1:
+        if  l <len_of_lst1 and lst1[l]<lst1[l+1] :
             print("uuuu")
             print("No")
             del lst1[:]
             break
-        elif lst1[l]>=lst1[l+1] and l <len_of_lst1:
+        elif l <len_of_lst1  and  lst1[l]>=lst1[l+1]  :
             print("uuuu")
             continue 
-    print("yes")
-    del lst1[:]
+        print("yes")
+        del lst1[:]
