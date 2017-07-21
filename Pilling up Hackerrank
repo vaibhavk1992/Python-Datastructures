@@ -4,20 +4,40 @@ lst=[]
 lst1=[]
 for k in range(int(test_cases)):
     num_of_elements=raw_input()
-    lst.append(map(int,raw_input().strip().split(' ')))
+    lst.append(map(int,raw_input().strip().split(' '))) 
 for j in xrange(len(lst)):
     list_len=len(lst[j])-1
-    print("the len",list_len)
+    print("the len",len(lst[j]))
     for i in xrange(len(lst[j])):
+      if i < list_len :
+       if lst[j][i]>=lst[j][list_len]:
+          lst1.append(lst[j][i])    
+          lst1.append(lst[j][list_len])
+          list_len=list_len-1
+          print(lst1)
+       else:
+          lst1.append(lst[j][list_len])
+          lst1.append(lst[j][i])    
+          list_len=list_len-1
+          print(list_len)
+          print(lst1)
       
-      if lst[j][i]>=lst[j][list_len]:
+      elif i==list_len:
+
           lst1.append(lst[j][i])    
-          lst1.append(lst[j][list_len])
-          list_len=list_len-1
-          print(lst1)
-      else:
-          lst1.append(lst[j][list_len])
-          lst1.append(lst[j][i])    
-          list_len=list_len-1
-          print(lst1)
-           
+                
+    print("the list 1 is ",lst1)    
+    l=0
+    len_of_lst1=len(lst1)-1
+    for l in lst1:
+        print(lst1[l])
+        if lst1[l]<lst1[l+1] and l <len_of_lst1:
+            print("uuuu")
+            print("No")
+            del lst1[:]
+            break
+        elif lst1[l]>=lst1[l+1] and l <len_of_lst1:
+            print("uuuu")
+            continue 
+    print("yes")
+    del lst1[:]
