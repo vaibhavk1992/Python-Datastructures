@@ -1,0 +1,42 @@
+test_cases=raw_input()
+
+lst=[]
+lst1=[]
+for k in range(int(test_cases)):
+    num_of_elements=raw_input()
+    del lst[:]
+    lst.append(map(int,raw_input().strip().split(' '))) 
+    print(lst)
+    for j in xrange(len(lst)):
+        list_len=len(lst[j])-1
+        for i in xrange(len(lst[j])):
+          if i < list_len :
+           if lst[j][i]>=lst[j][list_len]:
+              lst1.append(lst[j][i])    
+              lst1.append(lst[j][list_len])
+              list_len=list_len-1
+           else:
+              lst1.append(lst[j][list_len])
+              lst1.append(lst[j][i])    
+              list_len=list_len-1      
+          elif i==list_len:
+
+              lst1.append(lst[j][i])    
+
+        k=0
+        print(lst1)
+        len_of_lst1=len(lst1)-1
+        for l in lst1:
+
+            if  k <len_of_lst1 and lst1[k]<lst1[k+1] :
+                print("No")
+                k=k+1
+                del lst1[:]
+                break
+            elif k <len_of_lst1  and  lst1[k]>=lst1[k+1]  :
+
+                k=k+1
+                continue 
+            elif k==len_of_lst1:
+                print("Yes")
+                del lst1[:]
