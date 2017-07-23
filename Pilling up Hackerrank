@@ -7,37 +7,37 @@ for k in range(int(test_cases)):
     lst.append(map(int,raw_input().strip().split(' '))) 
 for j in xrange(len(lst)):
     list_len=len(lst[j])-1
-    print("the len",len(lst[j]))
     for i in xrange(len(lst[j])):
       if i < list_len :
        if lst[j][i]>=lst[j][list_len]:
           lst1.append(lst[j][i])    
           lst1.append(lst[j][list_len])
           list_len=list_len-1
-          print(lst1)
        else:
           lst1.append(lst[j][list_len])
           lst1.append(lst[j][i])    
           list_len=list_len-1
-          print(list_len)
-          print(lst1)
+          #print(list_len)
+          #print(lst1)
       
       elif i==list_len:
 
           lst1.append(lst[j][i])    
                 
-    print("the list 1 is ",lst1)    
-    l=0
+    #print("the list 1 is ",lst1)    
+    k=0
     len_of_lst1=len(lst1)-1
     for l in lst1:
-        print(lst1[l])
-        if  l <len_of_lst1 and lst1[l]<lst1[l+1] :
-            print("uuuu")
+
+        if  k <len_of_lst1 and lst1[k]<lst1[k+1] :
             print("No")
+            k=k+1
             del lst1[:]
             break
-        elif l <len_of_lst1  and  lst1[l]>=lst1[l+1]  :
-            print("uuuu")
+        elif k <len_of_lst1  and  lst1[k]>=lst1[k+1]  :
+
+            k=k+1
             continue 
-        print("yes")
-        del lst1[:]
+        elif k==len_of_lst1:
+            print("Yes")
+            del lst1[:]
