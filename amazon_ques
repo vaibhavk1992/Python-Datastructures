@@ -1,0 +1,99 @@
+Description
+Nikhil, one of the social worker, realises that it’s good to feed the animals. So he decides to own a goat & named her Tinie along with a farm to feed her.
+
+The farm comprises W x H (1 ≤ W ≤ 750; 1 ≤ H ≤ 750) squares and is partitioned into one or more separate pastures by rocks both large and small. Every pasture contains some grass and some rocks. Unfortunately, Tinie just loves to eat, eat and eat the grass. Tinie can move from any square to any other square i.e. horizontally, vertically, or diagonally adjacent. Tinie can’t cross the rocks because they hurt her feet, and of course, she can’t leave the farm.
+
+So, Tinie wants to know the maximum number of squares of grass that she can eat. Nikhil has a map of his farm, where a ‘.’ represents a square of grass, and a ‘*’ represents a rock. Consider this 10x8 map and a detailed breakdown of the extent of each of its three pastures:
+
+  ...*....**  |  111*....**   ...*2222**    ...*....**  
+  ..**....**  |  11**....**   ..**2222**    ..**....**  
+  ...*....**  |  111*....**   ...*2222**    ...*....**  
+  ...**.*.**  |  111**.*.**   ...**2*2**    ...**.*.**  
+  ***.**.***  |  ***1**.***   ***.**2***    ***.**.***
+  ...**.*.**  |  111**.*.**   ...**2*2**    ...**.*.**
+  ...*.*****  |  111*.*****   ...*2*****    ...*.*****
+  ...***..**  |  111***..**   ...***..**    ...***33**
+
+Pasture 1 has 21 squares; pasture 2 has 18 squares; pasture 3 has 2 squares.
+Thus Tinie should choose pasture 1 with 21 squares to maximise the grass she can eat.
+
+Note: Tinie can start from any position on the field.
+
+Input
+
+    Line 1: Two space-separated integers: W and H
+    Lines 2…H+1: Line i+1 describes field row i with W characters (and no spaces), each either ‘.’ or ‘*’
+
+Output
+
+    Line 1: A single integer that represents the maximum number of squares of grass that Tinie can eat.
+
+Sample Test Case
+
+Input
+
+ 10 8
+ ...*....**
+ ..**....**
+ ...*....**
+ ...**.*.**
+ ***.**.***
+ ...**.*.**
+ ...*.*****
+ ...***..**
+
+
+Output
+
+21
+
+
+
+###########Question2##############
+Design a system for Stock-Market
+
+    subject Subjective
+    casino 10 points
+
+Description
+A company wants to design a system similar to that of a stock market. They had some basic idea of how a stock server works i.e.  the stock server will receive the buy requests from buyers and sell requests from sellers. A sell can be successful when it matches the quantity and price for some stock.
+There will be many requests from buyers and sellers and you need to select the appropriate one.
+
+Expectations:
+
+    Design a system for implementation of the stock market?
+    Design an efficient data structure for this system? Why?
+    Explain how your system will handle concurrency issue?
+    To support your design, please submit class diagram?
+
+Note:
+
+     You can drag and drop images in the text area to upload it
+    You can use free tools like https://www.draw.io/ for the wireframes, flow chart, etc
+    If you are using https://www.draw.io/, make sure you export it as an image.
+
+
+
+Design an efficient online Training System
+
+    subject Subjective
+    casino 20 points
+
+Description
+In an online training system, there are N number of trainers and each one of them is proficient in only one subject. These trainers are capable of training any number of students at a given time.
+
+Whereas an employee can join to any number of trainers to learn those subjects and each of the employees can give preference through which an employee can get updates about the subject or class timings etc.
+
+These preferences can be sent through SMS or Twitter/Facebook or Email... etc.
+
+Your task is to design the above system and draw the diagram for above.
+You need to submit a class diagram, E-R diagram and workflow of the above system. To support your design, you are free to use any number of diagrams like composition diagram, aggregation diagram etc.
+
+Note:
+
+     You can drag and drop images in the text area to upload it
+    You can use free tools like https://www.draw.io/ for the wireframes, flow chart, etc
+    If you are using https://www.draw.io/, make sure you export it as an image.
+
+
+

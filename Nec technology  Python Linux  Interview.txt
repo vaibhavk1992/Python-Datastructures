@@ -1,0 +1,9 @@
+1. Multithreading
+2. Encapsulisation in python
+3. Inheritance in python
+4. How to search for a file in a given directory using python or shell 
+5. Clocck's Hours and minute hand angle question
+6. Bundles or modules in python
+7. Circular link list
+7. Exceptonal hadline error code mean? hOW fianally works ?Use of catch block
+8 . How to do union of files or data in shell or python except append using file handling?

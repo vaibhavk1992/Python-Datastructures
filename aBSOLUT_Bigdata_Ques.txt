@@ -1,0 +1,6 @@
+Types of udf serde
+HOw transform,lateral view works
+what are temp fucntions in hive
+yarn architechture,how group by works with counts(*) at the backend
+HOw to see the execution plan of query .HOw can you deduce it
+Can we makeuse of the file when we put a file into hadoop distcp
