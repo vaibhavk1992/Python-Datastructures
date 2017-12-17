@@ -1,0 +1,26 @@
+test_case_num = int(("1"))
+shop_num = int(3)
+sum = 0
+prev_index = 0
+for i in range(0, shop_num, 1):
+    print("enter the raw input")
+    lst = map(int, list(raw_input().strip().split()))
+    min_index = lst.index(min(lst))
+    if i == 0:
+        sum = sum + lst[min_index]
+        prev_index=min_index
+    else:
+        if min_index == prev_index:
+
+            if len(set(lst))==1 :
+                sum = sum + lst[min_index+1]
+                prev_index = min_index+1
+            else:
+                sliced_min_index=lst.index(min(lst[min_index+1:len(lst)]))
+                sum=sum+lst[sliced_min_index]
+                prev_index=sliced_min_index
+        else:
+            sum = sum + lst[min_index]
+            prev_index=min_index
+
+print(sum)
